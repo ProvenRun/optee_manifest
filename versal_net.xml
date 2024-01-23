@@ -18,9 +18,11 @@
 
 
 	<!-- Xilinx gits -->
-	<project path="arm-trusted-firmware"	name="Xilinx/arm-trusted-firmware.git"  revision="refs/tags/xilinx-v2023.2"/>
-	<project path="u-boot"			name="Xilinx/u-boot-xlnx.git"	revision="refs/tags/xilinx-v2023.2"/>
-	<project path="linux"			name="Xilinx/linux-xlnx.git"	revision="refs/tags/xilinx-v2023.2"/>
+	<project path="arm-trusted-firmware"	name="Xilinx/arm-trusted-firmware.git"  revision="refs/tags/xilinx-v2023.2" clone-depth="1" />
+        <!-- Current 2023.2 Xilinx git trees do not boot correctly, use private trees manually instead
+	<project path="u-boot"			name="Xilinx/u-boot-xlnx.git"	revision="refs/tags/xilinx-v2023.2" clone-depth="1" />
+	<project path="linux"			name="Xilinx/linux-xlnx.git"	revision="refs/tags/xilinx-v2023.2" clone-depth="1" />
+        -->
 	<project path="bootgen"			name="Xilinx/bootgen.git"	revision="refs/tags/xilinx_v2023.2"/>
 
 	<!-- Misc gits -->
