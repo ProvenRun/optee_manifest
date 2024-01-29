@@ -6,8 +6,8 @@
 	<!-- OP-TEE gits -->
         <project path="optee_os"		name="ProvenRun/optee_os.git" revision="refs/heads/versal_adaptative_port" clone-depth="1" />
 	<project path="optee_client"		name="OP-TEE/optee_client.git" revision="refs/tags/3.22.0" clone-depth="1" />
-	<project path="optee_docs"		name="OP-TEE/optee_docs.git" revision="refs/tags/3.22.0" clone-depth="1" />
-	<project path="optee_test"		name="OP-TEE/optee_test.git" revision="refs/tags/3.22.0" clone-depth="1" />
+	<project path="optee_docs"		name="ProvenRun/optee_docs.git" revision="refs/heads/versal_net_port" clone-depth="1" />
+	<project path="optee_test"		name="ProvenRun/optee_test.git" revision="refs/heads/versal_net_port" clone-depth="1" />
 	<project path="build"			name="ProvenRun/optee_build.git" revision="refs/heads/versal_net_port" clone-depth="1" >
 		<linkfile src="versal_net.mk" dest="build/Makefile" />
 	</project>
